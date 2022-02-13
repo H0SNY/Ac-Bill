@@ -1,0 +1,263 @@
+* {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+body {
+  background-color: rgba(70, 70, 70);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+.rounded-xs{
+  border-radius : .5rem;
+}
+.rounded-sm{
+  border-radius : 1rem;
+}
+.rounded-md{
+  border-radius : 2rem;
+}
+.rounded-lg{
+  border-radius : 3rem;
+}
+.rounded-xlg{
+  border-radius : 4rem;
+}
+.rounded-full{
+  border-radius : 50%;
+}
+
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: conter;
+}
+
+.items-start {
+  align-items: start;
+}
+.items-end {
+  align-items: end;
+}
+.items-center {
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.basis-1-12 {
+  width: 8.3%;
+}
+.basis-2-12 {
+  width: 16.6%;
+}
+.basis-3-12 {
+  width: 25%;
+}
+.basis-4-12 {
+  width: 33.3%;
+}
+.basis-5-12 {
+  width: 41.6%;
+}
+.basis-6-12 {
+  width: 50%;
+}
+.basis-7-12 {
+  width: 58.3%;
+}
+.basis-8-12 {
+  width: 66.6%;
+}
+.basis-9-12 {
+  width: 75%;
+}
+.basis-10-12 {
+  width: 83.3%;
+}
+.basis-11-12 {
+  width: 91.6%;
+}
+.w-full {
+  width: 100%;
+}
+.basis-1\12 {
+  width: 8.3%;
+}
+.basis-1\12 {
+  width: 8.3%;
+}
+.p-1{
+  padding : 0.2rem;
+}
+.p-2{
+  padding : 0.4rem;
+}
+.p-3{
+  padding : 0.6rem;
+}
+.p-4{
+  padding : 0.8rem;
+}
+.p-5{
+  padding : 1rem;
+}
+.p-6{
+  padding : 1.4rem;
+}
+.p-7{
+  padding : 1.8rem;
+}
+.p-8{
+  padding : 2.2rem;
+}
+.p-9{
+  padding : 2.5rem;
+}
+.p-10{
+  padding : 3rem;
+}
+
+.m-1{
+  margin : 0.2rem;
+}
+.m-2{
+  margin : 0.4rem;
+}
+.m-3{
+  margin : 0.6rem;
+}
+.m-4{
+  margin : 0.8rem;
+}
+.m-5{
+  margin : 1rem;
+}
+.m-6{
+  margin : 1.4rem;
+}
+.m-7{
+  margin : 1.8rem;
+}
+.m-8{
+  margin : 2.2rem;
+}
+.m-9{
+  margin : 2.5rem;
+}
+.m-10{
+  margin : 3rem;
+}
+.hover:hover{
+  background-color : rgba(120 , 120 , 120 , .8)
+}
+.nav {
+  background-color: rgba(70, 30, 140);
+  padding: 1rem;
+  color: white;
+}
+.choose-your-method-root {
+  background: rgba(80, 35, 150);
+  padding: 1rem;
+}
+
+.choose-your-method {
+}
+
+.menu {
+  color: black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.choose-your-method-value {
+  color: black;
+  cursor: pointer;
+}
+
+.choose-your-input-method {
+  padding: 1rem;
+}
+.choose-your-input-method-buttons {
+  border-radius: 1rem;
+}
+.choose-your-input-method-button button {
+  margin: 0 0.3rem 0 0.3rem;
+}
+.choose-your-method-apply {
+}
+
+.choose-your-method-apply-button {
+  border-radius: 1rem;
+  border: 0;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.choose-your-method-apply-button:visited {
+  background-color: rgba(80, 80, 80);
+}
+.choose-your-method-apply-button:active {
+  background-color: rgba(90, 90, 90);
+}
+.choose-your-method-apply-button:hover {
+  background-color: rgba(110, 110, 110);
+}
+
+.choose-your-method-apply-button p {
+  color: black;
+}
+
+.no-of-variables {
+  padding: 1rem;
+}
+
+.no-of-variables-input-root {
+  margin-left: 1rem;
+  color: black;
+}
+
+.no-of-variables-input {
+  width: 70%;
+  background-color : black;
+}
+.no-of-variables-input p {
+  color: black;
+}
+
+.answer{
+  width : 100%;
+  height : 10rem;
+  background : rgba(180 , 180 , 180);
+  color : black;
+}
